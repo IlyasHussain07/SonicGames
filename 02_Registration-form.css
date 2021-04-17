@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+.container {
+    background: url(./tech.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+form {
+    max-width: 350px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+}
+.form-title {
+    width: 250px;
+    border-bottom: 5px solid #4caf50;
+    margin-bottom: 20px;
+}
+.form-title p {
+    font-size: 50px;
+    color: #fff;
+}
+.form-title p {
+    color: #fff;
+}
+.form-links {
+    border-bottom: 2px solid #4caf50;
+}
+.form-links input {
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 10px;
+    color: #fff;
+}
+.form-links i {
+    color: #fff;
+    float: left;
+}
+.form-select select {
+    width: 90%;
+    border: none;
+    outline: none;
+   background: transparent;
+   color: #fff;
+}
+.form-select select option {
+    color: black;
+}
+.form-select i {
+    color: #fff;
+}
+.form-select {
+    border-bottom: 2px solid #4caf50;
+}
+.form-button {
+    text-align: center;
+}
+.form-button input {
+    width: 200px;
+    background: transparent;
+    border: 2px solid #4caf50;
+    color: #fff;
+    outline: none;
+    padding: 8px;
+    border-bottom: 5px solid #fff;
+    border-radius: 25px;
+}
+.form-button input:hover {
+    background: #4caf50;
+}
+.form-check {
+    color: #fff;
+    display: flex;
+}
+.form-check p {
+    margin-left: 10px;
+}
